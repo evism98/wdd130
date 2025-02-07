@@ -1,5 +1,6 @@
+
 body {
-    font-family: 'Roboto', 'Inter', sans-serif; /* Added quotes and fallback font */
+    font-family: 'Arial', sans-serif; /* Use a general sans-serif font for paragraphs */
     margin: 0;
     padding: 0;
     background-image: url('images/1234.jpg');
@@ -39,6 +40,19 @@ section {
     margin-bottom: 20px;
 }
 
+/* Apply Roboto font to headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif; /* Ensure headings use Roboto font */
+    color: #333; /* Darker color for better readability */
+}
+
+/* Optional: Add styles for paragraphs */
+p {
+    font-family: 'Arial', sans-serif; /* Use a general sans-serif font for paragraphs */
+    line-height: 1.6; /* Improve readability with line height */
+    color: #555; /* Slightly lighter color for paragraphs */
+}
+
 footer {
     text-align: center;
     padding: 10px 0;
@@ -56,4 +70,3 @@ footer {
     --background-color: #fe2226; /* Light Gray */
     --text-color: #fe1eef; /* Dark Gray */
 }
-
