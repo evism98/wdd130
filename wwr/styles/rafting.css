@@ -1,6 +1,6 @@
 
 body {
-    font-family: 'Arial', sans-serif; /* Use a general sans-serif font for paragraphs */
+    font-family: 'Arial, sans-serif; /* Use a general sans-serif font for paragraphs */
     margin: 0;
     padding: 0;
     background-image: url('images/1234.jpg');
@@ -69,4 +69,123 @@ footer {
     --accent-color: #fe2226; /* Red */
     --background-color: #fe2226; /* Light Gray */
     --text-color: #fe1eef; /* Dark Gray */
+}
+
+
+
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/1234.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+header {
+    background-color: #007BFF;
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+}
+
+.header-container {
+    display: grid;
+    grid-template-columns: auto 1fr auto; /* Three columns: logo, title, nav */
+    align-items: center; /* Center items vertically */
+    padding: 0 20px;
+}
+
+.logo {
+    height: 50px; /* Adjust logo size */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Use flexbox for nav items */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+/* Adventures section styles */
+.adventure-gallery {
+    display: flex;
+    justify-content: space-between; /* Space out images evenly */
+    flex-wrap: wrap; /* Wrap items to the next line if necessary */
+}
+
+figure {
+    flex: 1; /* Allow each figure to grow */
+    margin: 10px; /* Margin around figures */
+    text-align: center; /* Center captions */
+}
+
+figure img {
+    max-width: 100%; /* Responsive images */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Headings and paragraph styles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+p {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #007BFF;
+    color: white;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between; /* Space out content */
+    align-items: center; /* Center items vertically */
+    padding: 0 20px; /* Add padding */
+}
+
+.social-media {
+    display: flex;
+    gap: 10px; /* Space between social icons */
+}
+
+.social-media img {
+    width: 30px; /* Set icon size */
+    height: auto; /* Maintain aspect ratio */
+}
+
+:root {
+    --primary-color: #2cfd3d;
+    --secondary-color: #512eff;
+    --accent-color: #fe2226;
+    --background-color: #fe2226;
+    --text-color: #fe1eef;
 }
