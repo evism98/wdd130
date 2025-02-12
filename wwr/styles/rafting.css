@@ -1,113 +1,188 @@
 
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-image: url('images/1234.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-}
-header {
-    background-color: #007BFF;
-    color: rgb(255, 255, 255);
-    padding: 10px 0;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Vic-falls Rafting Adventures Team">
+    <meta name="description" content="Experience thrilling rafting adventures with Vic-falls Rafting Adventures. Join us for unforgettable experiences on the Zambezi River!">
+    <title>About Us - Vic-falls Rafting Adventures</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('images/1234.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+        }
+        header {
+            background-color: #007BFF;
+            color: rgb(255, 255, 255);
+            padding: 10px 0;
+        }
 
-.header-container {
-    display: grid;
-    grid-template-columns: auto 1fr auto; /* Three columns: logo, title, nav */
-    align-items: center; /* Center items vertically */
-    padding: 0 20px;
-}
+        .header-container {
+            display: grid;
+            grid-template-columns: auto 1fr auto; /* Three columns: logo, title, nav */
+            align-items: center; /* Center items vertically */
+            padding: 0 20px;
+        }
 
-.logo {
-    height: 50px; /* Adjust logo size */
-}
+        .logo {
+            height: 50px; /* Adjust logo size */
+        }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    display: flex; /* Use flexbox for nav items */
-}
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex; /* Use flexbox for nav items */
+        }
 
-nav ul li {
-    margin: 0 15px;
-}
+        nav ul li {
+            margin: 0 15px;
+        }
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
 
-main {
-    padding: 20px;
-}
+        main {
+            padding: 20px;
+        }
 
-section {
-    margin-bottom: 20px;
-}
+        section {
+            margin-bottom: 20px;
+        }
 
-/* Adventures section styles */
-.adventure-gallery {
-    display: flex;
-    justify-content: space-between; /* Space out images evenly */
-    flex-wrap: wrap; /* Wrap items to the next line if necessary */
-}
+        /* Adventures section styles */
+        .adventure-gallery {
+            display: flex;
+            justify-content: space-between; /* Space out images evenly */
+            flex-wrap: wrap; /* Wrap items to the next line if necessary */
+        }
 
-figure {
-    flex: 1; /* Allow each figure to grow */
-    margin: 10px; /* Margin around figures */
-    text-align: center; /* Center captions */
-}
+        figure {
+            flex: 1; /* Allow each figure to grow */
+            margin: 10px; /* Margin around figures */
+            text-align: center; /* Center captions */
+        }
 
-figure img {
-    max-width: 100%; /* Responsive images */
-    height: auto; /* Maintain aspect ratio */
-}
+        figure img {
+            max-width: 100%; /* Responsive images */
+            height: auto; /* Maintain aspect ratio */
+        }
 
-/* Headings and paragraph styles */
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto', sans-serif;
-    color: #333;
-}
+        /* Headings and paragraph styles */
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Roboto', sans-serif;
+            color: #333;
+        }
 
-p {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    color: #555;
-}
+        p {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #555;
+        }
 
-footer {
-    text-align: center;
-    padding: 10px 0;
-    background-color: #007BFF;
-    color: white;
-    width: 100%;
-}
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #007BFF;
+            color: white;
+            width: 100%;
+        }
 
-.footer-content {
-    display: flex;
-    justify-content: space-between; /* Space out content */
-    align-items: center; /* Center items vertically */
-    padding: 0 20px; /* Add padding */
-}
+        .footer-content {
+            display: flex;
+            justify-content: space-between; /* Space out content */
+            align-items: center; /* Center items vertically */
+            padding: 0 20px; /* Add padding */
+        }
 
-.social-media {
-    display: flex;
-    gap: 10px; /* Space between social icons */
-}
+        .social-media {
+            display: flex;
+            gap: 10px; /* Space between social icons */
+        }
 
-.social-media img {
-    width: 30px; /* Set icon size */
-    height: auto; /* Maintain aspect ratio */
-}
+        .social-media img {
+            width: 30px; /* Set icon size */
+            height: auto; /* Maintain aspect ratio */
+        }
 
-:root {
-    --primary-color: #2cfd3d;
-    --secondary-color: #512eff;
-    --accent-color: #fe2226;
-    --background-color: #fe2226;
-    --text-color: #fe1eef;
-}
+        :root {
+            --primary-color: #2cfd3d;
+            --secondary-color: #512eff;
+            --accent-color: #fe2226;
+            --background-color: #fe2226;
+            --text-color: #fe1eef;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="images/logo.jpg" alt="Logo" class="logo">
+            <h1>Vic-falls Rafting Adventures</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="adventures.html">Adventures</a></li>
+                    <li><a href="history.html">History</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Welcome to Vic-falls Rafting Adventures! We are dedicated to providing thrilling rafting experiences...</p>
+        </section>
+        <section id="history">
+            <h2>History</h2>
+            <p>Our journey began in 2005, and since then, we've been committed to adventure and safety...</p>
+        </section>
+        <section id="adventures">
+            <h2>Adventures</h2>
+            <div class="adventure-gallery">
+                <figure>
+                    <img src="images/zambezi.jpg" alt="Los Dientes del Diablo">
+                    <figcaption>Los Dientes del Diablo</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/white.jpg" alt="Big Mallard">
+                    <figcaption>Big Mallard</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/zim.jpg" alt="Half Day Adventure">
+                    <figcaption>Half Day Adventure</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting22.jpg" alt="Adventure 4">
+                    <figcaption>Adventure 4</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/rafting36.jpg" alt="Adventure 5">
+                    <figcaption>Adventure 5</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Vic-falls Rafting Adventures. All rights reserved.</p>
+            <div class="social-media">
+                <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="images/png.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer
