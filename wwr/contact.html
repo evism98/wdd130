@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us - Vic-falls Rafting Adventures</title>
     <meta name="description" content="Get in touch with Vic-falls Rafting Adventures. Contact us for inquiries, reservations, or suggestions.">
+    <meta name="author" content="Vic-falls Rafting Adventures">
     <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="stylesheet" href="https://jigsaw.w3.org/css-validator/check/referer">
 </head>
 <body>
     <header>
@@ -50,6 +51,18 @@
                     <img src="images/ray.jpg" alt="Ray Jay">
                     <figcaption>Ray Jay - Customer Service</figcaption>
                 </figure>
+                <figure>
+                    <img src="images/team1.jpg" alt="Team Member 1">
+                    <figcaption>Team Member 1 - Role</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/team2.jpg" alt="Team Member 2">
+                    <figcaption>Team Member 2 - Role</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/team3.jpg" alt="Team Member 3">
+                    <figcaption>Team Member 3 - Role</figcaption>
+                </figure>
             </div>
         </section>
         <section id="contact-form">
@@ -63,6 +76,15 @@
 
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" rows="5" required></textarea>
+
+                <label for="newsletter">Subscribe to our newsletter:</label>
+                <input type="checkbox" id="newsletter" name="newsletter">
+
+                <label>Preferred Contact Method:</label>
+                <input type="radio" id="phone" name="contact_method" value="phone">
+                <label for="phone">Phone</label>
+                <input type="radio" id="email_contact" name="contact_method" value="email">
+                <label for="email_contact">Email</label>
 
                 <button type="submit">Send Message</button>
             </form>
