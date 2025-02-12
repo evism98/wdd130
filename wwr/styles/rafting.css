@@ -1,79 +1,122 @@
 
-        <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/rafting.css">
-</head>
-<body>
-    <header>
-        <div class="header-container">
-            <img src="images/logo.jpg" alt="Logo" class="logo">
-            <h1>Vic-falls Rafting Adventures</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="adventures.html">Adventures</a></li>
-                    <li><a href="history.html">History</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <main>
-        <section id="contact-info">
-            <h2>Contact Us</h2>
-            <p>Company Information:</p>
-            <p>Address: 12 Jacaranda Crescent, Victoria Falls, Zimbabwe</p>
-            <p>Phone: (+263) 782 641 220</p>
-            <p>Email: <a href="mailto:info@vicfallsrafting.com">info@vicfallsrafting.com</a></p>
-            <div class="map-container">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509056!2d144.9537353153184!3d-37.81627997975153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f2f3e3f%3A0x5045675218ceed0!2sVic-falls%20Rafting%20Adventures!5e0!3m2!1sen!2sus!4v1610000000000!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-        </section>
-        <section id="adventure-gallery">
-            <h2>Adventures</h2>
-            <div class="adventure-gallery">
-                <figure>
-                    <img src="wwr/Images/team1.jpg" alt="Team Adventure 1">
-                    <figcaption>Team Adventure 1</figcaption>
-                </figure>
-                <figure>
-                    <img src="wwr/Images/team2.jpg" alt="Team Adventure 2">
-                    <figcaption>Team Adventure 2</figcaption>
-                </figure>
-                <figure>
-                    <img src="wwr/Images/team3.jpg" alt="Team Adventure 3">
-                    <figcaption>Team Adventure 3</figcaption>
-                </figure>
-                <figure>
-                    <img src="wwr/Images/team4.jpg" alt="Team Adventure 4">
-                    <figcaption>Team Adventure 4</figcaption>
-                </figure>
-                <figure>
-                    <img src="wwr/Images/team5.jpg" alt="Team Adventure 5">
-                    <figcaption>Team Adventure 5</figcaption>
-                </figure>
-                <figure>
-                    <img src="wwr/Images/team6.jpg" alt="Team Adventure 6">
-                    <figcaption>Team Adventure 6</figcaption>
-                </figure>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <div class="footer-content">
-            <p>&copy; 2025 Vic-falls Rafting Adventures. All rights reserved.</p>
-            <div class="social-media">
-                <a href="#"><img src="images/facebook-icon.png" alt="Facebook"></a>
-                <a href="#"><img src="images/twitter-icon.png" alt="Twitter"></a>
-                <a href="#"><img src="images/instagram-icon.png" alt="Instagram"></a>
-            </div>
-        </div>
-    </footer>
-</body>
-</html>
+
+
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Sain:wght@400;700&display=swap');
+
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background: #0077cc;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    height: 60px;
+}
+
+/* Navigation styling */
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styling */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Section styling */
+h2 {
+    font-family: 'Sain', sans-serif;
+    color: #0077cc;
+    margin-bottom: 15px;
+}
+
+.map-container {
+    margin: 20px 0;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #005fa3;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #0077cc;
+    color: #fff;
+    margin-top: 20px;
+}
