@@ -7,7 +7,7 @@
     <meta name="description" content="Get in touch with Vic-falls Rafting Adventures. Contact us for inquiries, reservations, or suggestions.">
     <meta name="author" content="Vic-falls Rafting Adventures">
     <link rel="stylesheet" href="styles/rafting.css">
-    <link rel="stylesheet" href="https://jigsaw.w3.org/css-validator/check/referer">
+
 </head>
 <body>
     <header>
@@ -95,6 +95,120 @@
                 <label for="phone">Phone</label>
                 <input type="radio" id="email_contact" name="contact_method" value="email">
                 <label for="email_contact">Email</label>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Vic-falls Rafting Adventures. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Vic-falls Rafting Adventures</title>
+    <meta name="description" content="Get in touch with Vic-falls Rafting Adventures. Contact us for inquiries, reservations, or suggestions.">
+    <meta name="author" content="Vic-falls Rafting Adventures">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="images/logo.jpg" alt="Logo" class="logo">
+            <h1>Vic-falls Rafting Adventures</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="adventures.html">Adventures</a></li>
+                    <li><a href="history.html">History</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <section id="contact-info">
+            <h2>Contact Us</h2>
+            <p>Company Information:</p>
+            <p>Address: 12 Jacaranda Crescent, Victoria Falls, Zimbabwe</p>
+            <p>Phone: (+263) 782 641 220</p>
+            <p>Email: <a href="mailto:info@vicfallsrafting.com">info@vicfallsrafting.com</a></p>
+            <div class="map-container">
+                <iframe 
+                     
+                    width="600" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </section>
+        
+        <section id="employee-profiles">
+            <h2>Meet Our Team</h2>
+            <div class="employee-gallery">
+                <figure>
+                    <img src="images/evism.jpg" alt="Evis M">
+                    <figcaption>Evis Shon - Rafting Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/beto.jpg" alt="Albert Simba">
+                    <figcaption>Simba Albert - Safety Officer</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/ray.jpg" alt="Ray Jay">
+                    <figcaption>Ray Jay - Customer Service</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/team1.jpg" alt="Team Member 1">
+                    <figcaption>Team Member 1 - Captain</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/team2.jpg" alt="Team Member 2">
+                    <figcaption>Team Member 2 - Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/team3.jpg" alt="Team Member 3">
+                    <figcaption>Team Member 3 - Photographer</figcaption>
+                </figure>
+            </div>
+        </section>
+        
+        <section id="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <label for="newsletter">Subscribe to our newsletter:</label>
+                <input type="checkbox" id="newsletter" name="newsletter">
+
+                <label>Preferred Contact Method:</label>
+                <input type="radio" id="phone" name="contact_method" value="phone">
+                <label for="phone">Phone</label>
+                <input type="radio" id="email_contact" name="contact_method" value="email">
+                <label for="email_contact">Email</label>
+                <input type="radio" id="text" name="contact_method" value="text">
+                <label for="text">Text</label>
 
                 <button type="submit">Send Message</button>
             </form>
