@@ -1,7 +1,4 @@
 
-
-
-
 /* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Sain:wght@400;700&display=swap');
 
@@ -13,16 +10,16 @@ body, h1, h2, h3, p, ul, li {
 
 /* Body styling */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Sain', sans-serif; /* Set default font for paragraphs */
     line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #e0f7fa; /* Light blue background */
+    color: #263238; /* Dark gray text for better readability */
 }
 
 /* Header styling */
 header {
-    background: #0077cc;
-    color: #fff;
+    background: #00796b; /* Teal header */
+    color: white; /* White text */
     padding: 20px 0;
 }
 
@@ -50,7 +47,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: white; /* White text for links */
     text-decoration: none;
     font-weight: 700;
 }
@@ -64,18 +61,26 @@ main {
     max-width: 1200px;
     margin: 20px auto;
     padding: 20px;
-    background: #fff;
+    background: white; /* White background for main content */
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* Section styling */
-h2 {
-    font-family: 'Sain', sans-serif;
-    color: #0077cc;
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif; /* Set font for headings */
+    font-size: 14px; /* Set font size for headings */
+    color: #d32f2f; /* Dark red color for headings */
     margin-bottom: 15px;
 }
 
+p {
+    font-family: 'Sain', sans-serif; /* Set font for paragraphs */
+    font-size: 14px; /* Set font size for paragraphs */
+    color: #424242; /* Dark gray color for paragraphs */
+}
+
+/* Map container */
 .map-container {
     margin: 20px 0;
 }
@@ -101,22 +106,22 @@ form textarea {
 form button {
     margin-top: 10px;
     padding: 10px;
-    background-color: #0077cc;
-    color: #fff;
+    background-color: #00796b; /* Teal button background */
+    color: white; /* White text for buttons */
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
 
 form button:hover {
-    background-color: #005fa3;
+    background-color: #004d40; /* Darker teal on hover */
 }
 
 /* Footer styling */
 footer {
     text-align: center;
     padding: 20px 0;
-    background: #0077cc;
-    color: #fff;
+    background: #00796b; /* Teal footer */
+    color: white; /* White text */
     margin-top: 20px;
 }
