@@ -3,10 +3,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Vic-falls Rafting Adventures Team">
-    <meta name="description" content="Experience thrilling rafting adventures with Vic-falls Rafting Adventures. Join us for unforgettable experiences on the Zambezi River!">
-    <title>About Us - Vic-falls Rafting Adventures</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -124,65 +120,4 @@
             --background-color: #fe2226;
             --text-color: #fe1eef;
         }
-    </style>
-</head>
-<body>
-    <header>
-        <div class="header-container">
-            <img src="images/logo.jpg" alt="Logo" class="logo">
-            <h1>Vic-falls Rafting Adventures</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="adventures.html">Adventures</a></li>
-                    <li><a href="history.html">History</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <main>
-        <section id="about">
-            <h2>About Us</h2>
-            <p>Welcome to Vic-falls Rafting Adventures! We are dedicated to providing thrilling rafting experiences...</p>
-        </section>
-        <section id="history">
-            <h2>History</h2>
-            <p>Our journey began in 2005, and since then, we've been committed to adventure and safety...</p>
-        </section>
-        <section id="adventures">
-            <h2>Adventures</h2>
-            <div class="adventure-gallery">
-                <figure>
-                    <img src="images/zambezi.jpg" alt="Los Dientes del Diablo">
-                    <figcaption>Los Dientes del Diablo</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/white.jpg" alt="Big Mallard">
-                    <figcaption>Big Mallard</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/zim.jpg" alt="Half Day Adventure">
-                    <figcaption>Half Day Adventure</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/rafting22.jpg" alt="Adventure 4">
-                    <figcaption>Adventure 4</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/rafting36.jpg" alt="Adventure 5">
-                    <figcaption>Adventure 5</figcaption>
-                </figure>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <div class="footer-content">
-            <p>&copy; 2025 Vic-falls Rafting Adventures. All rights reserved.</p>
-            <div class="social-media">
-                <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
-                <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
-                <a href="#"><img src="images/png.png" alt="Instagram"></a>
-            </div>
-        </div>
-    </footer
+    
