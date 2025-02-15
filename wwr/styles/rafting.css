@@ -68,8 +68,8 @@ main {
 
 /* Section styling */
 h1, h2, h3 {
-    font-family: 'Roboto', sans-serif; /* Set font for headings */
-    font-size: 14px; /* Set font size for headings */
+    font-family: 'Roboto', /* Set font for headings */
+    font-size: 18px; /* Set font size for headings */
     color: #d32f2f; /* Dark red color for headings */
     margin-bottom: 15px;
 }
@@ -77,7 +77,7 @@ h1, h2, h3 {
 p {
     font-family: 'Sain', sans-serif; /* Set font for paragraphs */
     font-size: 14px; /* Set font size for paragraphs */
-    color: #424242; /* Dark gray color for paragraphs */
+    color: #1b0edb; /* Dark gray color for paragraphs */
 }
 
 /* Map container */
