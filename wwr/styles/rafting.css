@@ -1,6 +1,14 @@
-
 /* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Sain:wght@400;700&display=swap');
+
+/* Font Family Class */
+.roboto-<uniquifier> {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: italic;
+    font-variation-settings: "wdth" 100;
+}
 
 /* Reset some default styles */
 body, h1, h2, h3, p, ul, li {
@@ -10,7 +18,7 @@ body, h1, h2, h3, p, ul, li {
 
 /* Body styling */
 body {
-    font-family: 'Sain', sans-serif; /* Set default font for paragraphs */
+    font-family: 'Sain', sans-serif; /* Default font for paragraphs */
     line-height: 1.6;
     background-color: #e0f7fa; /* Light blue background */
     color: #263238; /* Dark gray text for better readability */
@@ -68,7 +76,7 @@ main {
 
 /* Section styling */
 h1, h2, h3 {
-    font-family: 'Roboto', /* Set font for headings */
+    font-family: 'Roboto', sans-serif; /* Set font for headings */
     font-size: 18px; /* Set font size for headings */
     color: #d32f2f; /* Dark red color for headings */
     margin-bottom: 15px;
