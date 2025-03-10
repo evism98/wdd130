@@ -1,12 +1,14 @@
 nav { 
   background-color: darkblue;
   padding: 10px;
+  text-align: right; /* Aligns the links to the right */
 }
 
 nav a {
    color: white;
-   display: block;
+   display: inline-block; /* Changed to inline-block for horizontal alignment */
    padding: 20px;
+   text-decoration: none; /* Optional: Removes underline from links */
 }
 
 h1 {
