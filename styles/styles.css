@@ -16,11 +16,11 @@ h1 {
 }
 
 h2, h3, h4, h5, h6 { /* Added for other headings */
-  color: blue; /* Changed to blue */
+  color:red; /* Changed to blue */
 }
 
 img {
-    width: 150px;
+    width: 250px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
@@ -29,7 +29,7 @@ img {
 
 p {
   padding: 10px;
-  color: red; /* Changed to red */
+  color:blue; /* Changed to red */
 }
 
 main {
@@ -52,7 +52,7 @@ aside img {
 }
 
 main img {
-  width: 150px;
+  width: 250px;
   height: auto;
 }
 
