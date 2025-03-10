@@ -1,7 +1,7 @@
 nav { 
-  background-color: darkblue;
+  background-color: rgb(0, 69, 139);
   padding: 10px;
-  text-align: right; /* Aligns the links to the right */
+  text-align: center; /* Aligns the links to the right */
 }
 
 nav a {
@@ -29,7 +29,7 @@ img {
 
 p {
   padding: 10px;
-  color:blue; /* Changed to red */
+  color:crimson; /* Changed to red */
 }
 
 main {
