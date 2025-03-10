@@ -1,22 +1,22 @@
 nav { 
   background-color: rgb(0, 69, 139);
   padding: 10px;
-  text-align: center; /* Aligns the links to the right */
+  text-align: center; /* Aligns the links to the center */
 }
 
 nav a {
    color: white;
-   display: inline-block; /* Changed to inline-block for horizontal alignment */
+   display: inline-block; /* Horizontal alignment */
    padding: 20px;
-   text-decoration: none; /* Optional: Removes underline from links */
+   text-decoration: none; /* Removes underline from links */
 }
 
 h1 {
-  color:red; /* Changed to blue */
+  color: blue; /* Changed to blue */
 }
 
 h2, h3, h4, h5, h6 { /* Added for other headings */
-  color:red; /* Changed to blue */
+  color: blue; /* Changed to blue */
 }
 
 img {
@@ -25,39 +25,26 @@ img {
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    display: block; /* Make images block-level elements */
+    margin: 0 auto; /* Center images horizontally */
 }
 
 p {
   padding: 10px;
-  color:blue; /* Changed to red */
+  color: red; /* Changed to red */
 }
 
 main {
   max-width: 840px;
+  margin: 0 auto; /* Center main content */
 }
 
 aside {
   width: 20rem;
-  margin:  1rem;
-  border:   1px solid rgb(0 0 0 / 0.2);
+  margin: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
   padding: 1rem;
   background-color: #eee;
   color: #333;
-  text-align: center;
-}
-
-aside img {
-  width: 200px;
-  height: auto;
-}
-
-main img {
-  width: 250px;
-  height: auto;
-}
-
-footer {
-  margin-top: 15px;
-  border-top: 1px solid #000;
   text-align: center;
 }
