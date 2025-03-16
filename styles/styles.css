@@ -1,10 +1,11 @@
 
-<!DOCTYPE html>
+< !DOCTYPE html>
 <html lang="en-US">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EVIDENCE.S MATENDA | WDD130</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet"> <!-- Added Google Fonts link -->
     <style>
         body {
             font-family: Arial, sans-serif; 
@@ -49,10 +50,11 @@
 
         p {
             color: blue; /* Default color for paragraphs */
+            font-family: 'Roboto', sans-serif; /* Set font to Roboto */
         }
 
         aside p {
-            color: red; /* Change color for paragraph inside aside */
+            color: red; 
         }
 
         footer {
@@ -65,11 +67,14 @@
         }
     </style>
 </head>
+
 <body>
-    <aside>
-        <h2>Zimbabwe</h2>
-        <img src="images/zim.jpg" alt="Zimbabwe">
-        <p>Zimbabwe is a country located in southern Africa, bordered by South Africa to the south, Botswana to the southwest, and Zambia to the northwest. Known for its stunning landscapes, Zimbabwe boasts the majestic Victoria Falls, one of the largest and most famous waterfalls in the world. The country is rich in wildlife, with national parks like Hwange and Mana Pools offering incredible opportunities for safari adventures. Zimbabwe's diverse culture, vibrant cities, and historical sites, such as the Great Zimbabwe ruins, make it a fascinating destination for travelers seeking both natural beauty and cultural experiences.</p>
-    </aside>
+    <main>
+        <aside>
+            <h2>Zimbabwe</h2>
+            <img src="images/zim.jpg" alt="Zimbabwe">
+            <p>Zimbabwe is a country located in southern Africa, bordered by South Africa to the south, Botswana to the southwest, and Zambia to the northwest. Known for its stunning landscapes, Zimbabwe boasts the majestic Victoria Falls, one of the largest and most famous waterfalls in the world. The country is rich in wildlife, with national parks like Hwange and Mana Pools offering incredible opportunities for safari adventures. Zimbabwe's diverse culture, vibrant cities, and historical sites, such as the Great Zimbabwe ruins, make it a fascinating destination for travelers seeking both natural beauty and cultural experiences.</p>
+        </aside>
+    </main>
 </body>
 </html>
