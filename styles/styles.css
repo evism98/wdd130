@@ -69,17 +69,3 @@
     </style>
 </head>
 
-<body>
-    <main>
-        <h1>Welcome to Zimbabwe</h1> <!-- Added h1 element -->
-        <aside>
-            <h2>Zimbabwe</h2>
-            <img src="images/zim.jpg" alt="Beautiful landscape of Zimbabwe"> <!-- Enhanced alt text -->
-            <p>Zimbabwe is a country located in southern Africa, bordered by South Africa to the south, Botswana to the southwest, and Zambia to the northwest. Known for its stunning landscapes, Zimbabwe boasts the majestic Victoria Falls, one of the largest and most famous waterfalls in the world. The country is rich in wildlife, with national parks like Hwange and Mana Pools offering incredible opportunities for safari adventures. Zimbabwe's diverse culture, vibrant cities, and historical sites, such as the Great Zimbabwe ruins, make it a fascinating destination for travelers seeking both natural beauty and cultural experiences.</p>
-        </aside>
-    </main>
-    <footer>
-        <p>© 2025 EVIDENCE.S MATENDA</p> <!-- Added footer element -->
-    </footer>
-</body>
-</html>
