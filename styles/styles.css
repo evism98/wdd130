@@ -1,67 +1,75 @@
 
-nav { 
-  background-color: rgb(0, 69, 139);
-  padding: 10px;
-  text-align: center; 
-}
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=">
+    <title>EVIDENCE.S MATENDA | WDD130</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif; 
+            line-height: 1.6;
+            margin: 0;
+            padding: 0; 
+        }
 
-nav a {
-   color: white;
-   display: inline-block; 
-   padding: 20px;
-   text-decoration: none; 
-}
+        main {
+            max-width: 840px; 
+            margin: 0 auto; 
+            padding: 20px;
+        }
 
+        aside {
+            width: 20rem; 
+            margin: 1rem; 
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            padding: 1rem; 
+            background-color: #eee; 
+            color: #333;
+            text-align: center; 
+        }
 
-h1 {
-  color: red;
-}
+        aside img {
+            width: 200px;
+            height: auto;
+        }
 
-h2, h3, h4, h5, h6 { 
-  color: red; 
-}
+        main img {
+            width: 150px;
+            height: auto;
+        }
 
+        h1 {
+            color: blue;
+        }
 
-main {
-  max-width: 840px;
-  margin: 0 auto; 
-}
+        h2 {
+            color: red;
+        }
 
-main img {
-  width: 250px; 
-  height: auto;
-  border: 1px solid black;
-  padding: 2px;
-  box-shadow: 0 0 30px gray;
-  display: block; 
-  margin: 0 auto;
-}
+        p {
+            color: blue; /* Default color for paragraphs */
+        }
 
+        aside p {
+            color: red; /* Change color for paragraph inside aside */
+        }
 
-aside {
-  width: 20rem;
-  margin: 1rem;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  padding: 1rem;
-  background-color: #eee;
-  color: #333;
-  text-align: center;
-}
-
-aside img {
-  width: 200px; 
-  height: auto;
-}
-
-
-p {
-  padding: 0; 
-  color: blue; 
-}
-
-
-footer {
-  margin-top: 20px; 
-  border-top: 1px solid black; 
-  text-align: center;
-}
+        footer {
+            margin-top: 15px;
+            border-top: 1px solid #000; 
+            text-align: center; 
+            padding: 10px;
+            background-color: #f1f1f1; 
+            color: #333; 
+        }
+    </style>
+</head>
+<body>
+    <aside>
+        <h2>Zimbabwe</h2>
+        <img src="images/zim.jpg" alt="Zimbabwe">
+        <p>Zimbabwe is a country located in southern Africa, bordered by South Africa to the south, Botswana to the southwest, and Zambia to the northwest. Known for its stunning landscapes, Zimbabwe boasts the majestic Victoria Falls, one of the largest and most famous waterfalls in the world. The country is rich in wildlife, with national parks like Hwange and Mana Pools offering incredible opportunities for safari adventures. Zimbabwe's diverse culture, vibrant cities, and historical sites, such as the Great Zimbabwe ruins, make it a fascinating destination for travelers seeking both natural beauty and cultural experiences.</p>
+    </aside>
+</body>
+</html>
