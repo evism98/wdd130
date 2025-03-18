@@ -1,12 +1,13 @@
-/* CSS Variables */
 :root {
     --primary-color: #007BFF; /* Blue color for accents */
     --secondary-color: #ffffff; /* White for backgrounds */
     --text-color: #333333; /* Dark gray for text */
     --header-bg: rgba(167, 40, 93, 0.7); /* Semi-transparent background for header */
     --footer-bg: #f8f9fa; /* Light gray for footer */
-    --heading-color: #28a745; /* Green color for headings */
-    --paragraph-color: #007BFF; /* Blue color for paragraphs */
+    --heading-color-red: #FF0000; /* Red color for headings */
+    --heading-color-dark-green: #005700; /* Dark green color for h3 and h4 */
+    --paragraph-color-blue: #007BFF; /* Blue color for paragraphs 1 and 2 */
+    --paragraph-color-yellow: #FFFF00; /* Yellow color for paragraphs 3 and 4 */
 }
 
 /* General Styles */
@@ -23,6 +24,7 @@ img {
     display: block; /* Makes images block-level */
     margin-left: auto; /* Centers horizontally */
     margin-right: auto; /* Centers horizontally */
+    margin-bottom: 5mm; /* 5mm gap between images */
 }
 
 /* Header Styles */
@@ -35,6 +37,11 @@ header {
 
 header img {
     max-width: 150px; /* Logo size */
+}
+
+/* Company Name Styles */
+.company-name {
+    color: var(--heading-color-red); /* Red color for company name */
 }
 
 /* Navigation Styles */
@@ -98,14 +105,23 @@ section {
 }
 
 section h2 {
-    color: var(--heading-color); /* Green color for headings */
+    color: var(--heading-color-red); /* Red color for h2 headings */
     font-family: 'Merriweather', serif;
     margin-bottom: 10px;
 }
 
+section h3, section h4 {
+    color: var(--heading-color-dark-green); /* Dark green for h3 and h4 */
+}
+
 section p {
-    color: var(--paragraph-color); /* Blue color for paragraphs */
+    color: var(--paragraph-color-blue); /* Blue color for paragraphs 1 and 2 */
     font-family: 'Roboto', sans-serif; /* Ensure paragraphs use Roboto */
+}
+
+/* Specific Paragraph Colors */
+p:nth-of-type(3), p:nth-of-type(4) {
+    color: var(--paragraph-color-yellow); /* Yellow color for paragraphs 3 and 4 */
 }
 
 /* Footer Styles */
