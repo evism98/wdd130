@@ -1,0 +1,135 @@
+/* CSS Variables */
+:root {
+    --primary-color: #007BFF; /* Blue color for accents */
+    --secondary-color: #ffffff; /* White for backgrounds */
+    --text-color: #333333; /* Dark gray for text */
+    --header-bg: rgba(0, 0, 0, 0.7); /* Semi-transparent background for header */
+    --footer-bg: #f8f9fa; /* Light gray for footer */
+    --heading-color: #28a745; /* Green color for headings */
+    --paragraph-color: #007BFF; /* Blue color for paragraphs */
+}
+
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    position: relative;
+    background-color: var(--header-bg);
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    max-width: 150px; /* Logo size */
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 700;
+}
+
+nav a:hover {
+    color: var(--primary-color);
+}
+
+/* Hero Section Styles */
+.hero {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--secondary-color);
+    font-family: 'Merriweather', serif;
+    font-size: 3rem; /* Adjust font size */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+article img {
+    max-width: 100px; /* Size for happy client image */
+    float: left;
+    margin-right: 15px;
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+section h2 {
+    color: var(--heading-color); /* Green color for headings */
+    font-family: 'Merriweather', serif;
+    margin-bottom: 10px;
+}
+
+section p {
+    color: var(--paragraph-color); /* Blue color for paragraphs */
+    font-family: 'Roboto', sans-serif; /* Ensure paragraphs use Roboto */
+}
+
+/* Footer Styles */
+footer {
+    background-color: var(--footer-bg);
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+.sociallinks {
+    margin-top: 10px;
+}
+
+.sociallinks a img {
+    width: 30px; /* Size for social media icons */
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem; /* Smaller font size on mobile */
+    }
+
+    article {
+        bottom: 10px;
+        left: 10px;
+    }
+}
