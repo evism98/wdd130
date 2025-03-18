@@ -3,7 +3,7 @@
     --primary-color: #007BFF; /* Blue color for accents */
     --secondary-color: #ffffff; /* White for backgrounds */
     --text-color: #333333; /* Dark gray for text */
-    --header-bg: rgba(0, 0, 0, 0.7); /* Semi-transparent background for header */
+    --header-bg: rgba(167, 40, 93, 0.7); /* Semi-transparent background for header */
     --footer-bg: #f8f9fa; /* Light gray for footer */
     --heading-color: #28a745; /* Green color for headings */
     --paragraph-color: #007BFF; /* Blue color for paragraphs */
@@ -18,6 +18,13 @@ body {
     line-height: 1.6;
 }
 
+/* Centering Images */
+img {
+    display: block; /* Makes images block-level */
+    margin-left: auto; /* Centers horizontally */
+    margin-right: auto; /* Centers horizontally */
+}
+
 /* Header Styles */
 header {
     position: relative;
@@ -30,6 +37,7 @@ header img {
     max-width: 150px; /* Logo size */
 }
 
+/* Navigation Styles */
 nav {
     margin-top: 10px;
 }
@@ -52,7 +60,6 @@ nav a:hover {
 }
 
 .hero img {
-    display: block;
     width: 100%;
     height: auto;
 }
@@ -66,9 +73,9 @@ nav a:hover {
     font-family: 'Merriweather', serif;
     font-size: 3rem; /* Adjust font size */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-    text-align: center;
 }
 
+/* Article Styles */
 article {
     position: absolute;
     bottom: 20px;
