@@ -94,8 +94,8 @@ article {
 
 article img {
     max-width: 100px; /* Size for happy client image */
-    float: left;
-    margin-right: 15px;
+    float: right; /* Float the image to the right */
+    margin-left: 15px; /* Space between image and text */
 }
 
 /* Section Styles */
@@ -111,7 +111,7 @@ section h2 {
 }
 
 section h3, section h4 {
-    color: var(--heading-color-dark-green); /* Dark green for h3 and h4 */
+    color: var(--heading-color-dark-green); /* Dark green color for h3 and h4 */
 }
 
 section p {
@@ -135,11 +135,15 @@ footer p {
     margin: 10px 0;
 }
 
-.sociallinks {
+.social-media {
     margin-top: 10px;
 }
 
-.sociallinks a img {
+.social-media a {
+    text-decoration: none; /* Ensure no text decoration on links */
+}
+
+.social-media a img {
     width: 30px; /* Size for social media icons */
     margin: 0 10px;
     vertical-align: middle;
@@ -156,3 +160,4 @@ footer p {
         left: 10px;
     }
 }
+
