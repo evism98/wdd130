@@ -29,7 +29,9 @@ img {
 
 /* Header Styles */
 header {
-    position: relative;
+    display: grid; /* Use CSS Grid for layout */
+    grid-template-columns: auto 1fr; /* Logo and title on the left, nav on the right */
+    align-items: center; /* Center items vertically */
     background-color: var(--header-bg);
     padding: 20px;
     text-align: center;
@@ -39,13 +41,14 @@ header img {
     max-width: 150px; /* Logo size */
 }
 
-/* Company Name Styles */
 .company-name {
     color: var(--heading-color-red); /* Red color for company name */
 }
 
 /* Navigation Styles */
 nav {
+    display: flex; /* Use CSS Flex for horizontal layout */
+    justify-content: flex-end; /* Align nav items to the right */
     margin-top: 10px;
 }
 
@@ -136,6 +139,8 @@ footer p {
 }
 
 .social-media {
+    display: flex; /* Use Flexbox for horizontal layout */
+    justify-content: center; /* Center social media icons */
     margin-top: 10px;
 }
 
