@@ -59,6 +59,11 @@ nav a {
     font-weight: 700;
 }
 
+.float-right {
+    float: right;
+    width: 100px; /* Adjust as needed */
+}
+
 nav a:hover {
     color: var(--primary-color);
 }
