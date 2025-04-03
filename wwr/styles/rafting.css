@@ -1,173 +1,135 @@
-:root {
-    --primary-color: #007BFF; /* Blue color for accents */
-    --secondary-color: #ffffff; /* White for backgrounds */
-    --text-color: #333333; /* Dark gray for text */
-    --header-bg: rgba(167, 40, 93, 0.7); /* Semi-transparent background for header */
-    --footer-bg: #f8f9fa; /* Light gray for footer */
-    --heading-color-red: #FF0000; /* Red color for headings */
-    --heading-color-dark-green: #005700; /* Dark green color for h3 and h4 */
-    --paragraph-color-blue: #007BFF; /* Blue color for paragraphs 1 and 2 */
-    --paragraph-color-yellow: #FFFF00; /* Yellow color for paragraphs 3 and 4 */
-}
-
-/* General Styles */
+/* Base Styles */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Arial', sans-serif;
+    background-color: #E0F7FA; /* Light cyan */
+    color: #004D40; /* Dark teal */
     margin: 0;
     padding: 0;
-    color: var(--text-color);
-    line-height: 1.6;
-}
-
-/* Centering Images */
-img {
-    display: block; /* Makes images block-level */
-    margin-left: auto; /* Centers horizontally */
-    margin-right: auto; /* Centers horizontally */
-    margin-bottom: 5mm; /* 5mm gap between images */
+    line-height: 1.6; /* Improved readability */
 }
 
 /* Header Styles */
 header {
-    display: grid; /* Use CSS Grid for layout */
-    grid-template-columns: auto 1fr; /* Logo and title on the left, nav on the right */
-    align-items: center; /* Center items vertically */
-    background-color: var(--header-bg);
+    background-color: #00796B; /* Teal */
+    color: white;
     padding: 20px;
     text-align: center;
-}
-
-header img {
-    max-width: 150px; /* Logo size */
-}
-
-.company-name {
-    color: var(--heading-color-red); /* Red color for company name */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow for depth */
 }
 
 /* Navigation Styles */
 nav {
-    display: flex; /* Use CSS Flex for horizontal layout */
-    justify-content: flex-end; /* Align nav items to the right */
-    margin-top: 10px;
+    margin: 15px 0;
 }
 
 nav a {
-    color: var(--secondary-color);
+    color: #FFAB40; /* Orange */
     text-decoration: none;
     margin: 0 15px;
-    font-weight: 700;
-}
-
-.float-right {
-    float: right;
-    width: 100px; /* Adjust as needed */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth transition */
 }
 
 nav a:hover {
-    color: var(--primary-color);
+    color: #FFD54F; /* Light yellow on hover */
 }
 
-/* Hero Section Styles */
-.hero {
-    position: relative;
-    overflow: hidden;
+/* Heading Styles */
+h1 {
+    color: #FF5722; /* Deep orange */
+    font-family: 'Georgia', serif;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Subtle shadow */
 }
 
-.hero img {
-    width: 100%;
+h2 {
+    color: #FFD54F; /* Light yellow */
+    font-family: 'Verdana', sans-serif;
+    font-size: 2em;
+}
+
+h3 {
+    color: #FFAB40; /* Orange */
+    font-family: 'Courier New', monospace;
+    font-size: 1.5em;
+}
+
+/* Image Styles */
+img {
+    max-width: 100%;
     height: auto;
+    border-radius: 8px;
+    margin: 15px 0;
+    transition: transform 0.3s ease; /* Smooth scaling effect */
 }
 
-.hero h1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: var(--secondary-color);
-    font-family: 'Merriweather', serif;
-    font-size: 3rem; /* Adjust font size */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
 }
 
-/* Article Styles */
-article {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 15px;
-    border-radius: 5px;
-}
-
-article img {
-    max-width: 100px; /* Size for happy client image */
-    float: right; /* Float the image to the right */
-    margin-left: 15px; /* Space between image and text */
-}
-
-/* Section Styles */
-section {
+/* Container for Photos */
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     padding: 20px;
-    margin: 20px 0;
 }
 
-section h2 {
-    color: var(--heading-color-red); /* Red color for h2 headings */
-    font-family: 'Merriweather', serif;
-    margin-bottom: 10px;
+/* Individual Photo Item */
+.photo-item {
+    margin: 10px;
+    flex: 1 1 300px; /* Responsive */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease; /* Smooth hover effect */
 }
 
-section h3, section h4 {
-    color: var(--heading-color-dark-green); /* Dark green color for h3 and h4 */
+.photo-item:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
 }
 
-section p {
-    color: var(--paragraph-color-blue); /* Blue color for paragraphs 1 and 2 */
-    font-family: 'Roboto', sans-serif; /* Ensure paragraphs use Roboto */
+/* Call to Action Button Styles */
+.button {
+    display: inline-block;
+    background-color: #FF5722; /* Deep orange */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Smooth transition */
 }
 
-/* Specific Paragraph Colors */
-p:nth-of-type(3), p:nth-of-type(4) {
-    color: var(--paragraph-color-yellow); /* Yellow color for paragraphs 3 and 4 */
+.button:hover {
+    background-color: #FFAB40; /* Change color on hover */
 }
 
 /* Footer Styles */
 footer {
-    background-color: var(--footer-bg);
+    background-color: #00796B; /* Teal */
+    color: white;
     text-align: center;
     padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.3); /* Shadow for depth */
 }
 
-footer p {
-    margin: 10px 0;
-}
-
-.social-media {
-    display: flex; /* Use Flexbox for horizontal layout */
-    justify-content: center; /* Center social media icons */
-    margin-top: 10px;
-}
-
-.social-media a {
-    text-decoration: none; /* Ensure no text decoration on links */
-}
-
-.social-media a img {
-    width: 30px; /* Size for social media icons */
-    margin: 0 10px;
-    vertical-align: middle;
-}
-
-/* Responsive Styles */
+/* Responsive Media Queries */
 @media (max-width: 768px) {
-    .hero h1 {
-        font-size: 2.5rem; /* Smaller font size on mobile */
+    h1 {
+        font-size: 2em; /* Adjust heading size */
     }
 
-    article {
-        bottom: 10px;
-        left: 10px;
+    h2 {
+        font-size: 1.5em; /* Adjust heading size */
+    }
+
+    h3 {
+        font-size: 1.2em; /* Adjust heading size */
+    }
+
+    .photo-item {
+        flex: 1 1 100%; /* Stack photos on smaller screens */
     }
 }
-
