@@ -14,10 +14,11 @@
 <body>
     <header>
         <div class="header-container">
-            <img src="images/z.jpg" alt="Logo" class="logo" width="150" height="135">
+            <img src="images/z.jpg" alt="Vic-falls Rafting Adventures Logo" class="logo" width="150" height="135">
             <h1>Vic-falls Rafting Adventures</h1>
             <nav class="nav">
                 <a href="index.html">Home</a>
+                <a href="trips.html">Trips</a>
                 <a href="about.html">About Us</a>
                 <a href="contact.html">Contact Us</a>
             </nav>
@@ -28,7 +29,7 @@
         <section id="company-info">
             <h3>Company Information</h3>
             <p>Address: 12 Jacaranda Crescent, Victoria Falls, Zimbabwe</p>
-            <p>Phone: (+263) 782-641 220</p>
+            <p>Phone: <a href="tel:+263782641220">(+263) 782-641 220</a></p>
             <p>Email: <a href="mailto:info@vicfallsrafting.com">info@vicfallsrafting.com</a></p>
         </section>
         
@@ -41,18 +42,20 @@
 
         <section id="employee-profiles">
             <h3>Meet Our Team</h3>
-            <figure>
-                <img src="images/tine.jpg" alt="Employee 1" width="150" height="130">
-                <figcaption>TINENYASHA - Rafting Guide</figcaption>
-            </figure>
-            <figure>
-                <img src="images/kutenda.jpg" alt="Employee 2" width="150" height="130">
-                <figcaption>KUTENDA - Safety Officer</figcaption>
-            </figure>
-            <figure>
-                <img src="images/kunashe.jpg" alt="Employee 3" width="150" height="130">
-                <figcaption>KUNASHE - Customer Service</figcaption>
-            </figure>
+            <div class="team-profiles">
+                <figure>
+                    <img src="images/tine.jpg" alt="TINENYASHA - Rafting Guide" width="150" height="130">
+                    <figcaption>TINENYASHA - Rafting Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/kutenda.jpg" alt="KUTENDA - Safety Officer" width="150" height="130">
+                    <figcaption>KUTENDA - Safety Officer</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/kunashe.jpg" alt="KUNASHE - Customer Service" width="150" height="130">
+                    <figcaption>KUNASHE - Customer Service</figcaption>
+                </figure>
+            </div>
         </section>
 
         <section id="contact-form">
@@ -65,12 +68,14 @@
                 <input type="email" id="email" name="email" required>
 
                 <label for="purpose">Purpose of Message:</label>
-                <input type="radio" id="inquiry" name="purpose" value="General Inquiry" required>
-                <label for="inquiry">General Inquiry</label>
-                <input type="radio" id="reservation" name="purpose" value="Reservation Question">
-                <label for="reservation">Reservation Question</label>
-                <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
-                <label for="suggestion">Website Suggestion</label>
+                <div>
+                    <input type="radio" id="inquiry" name="purpose" value="General Inquiry" required>
+                    <label for="inquiry">General Inquiry</label>
+                    <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+                    <label for="reservation">Reservation Question</label>
+                    <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+                    <label for="suggestion">Website Suggestion</label>
+                </div>
 
                 <label for="message">Your Message:</label>
                 <textarea id="message" name="message" rows="4" required></textarea>
